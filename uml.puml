@@ -1,0 +1,11 @@
+@startuml
+class Bicycle {
++ void start()
++ void accelerate()
++ void stop()
+}
+
+
+
+Vehicle <|-- Bicycle
+@enduml
